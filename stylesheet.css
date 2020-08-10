@@ -1,16 +1,4 @@
 
-@media screen {
-   .topnav a, .topnav-right{
-      float:none;
-      display : block;
-      text-align: center;
-   }
-}
-
-button:hover {
-   color:red;
-}
-
 .topnav {
    position: relative;
    overflow: hidden;
@@ -20,8 +8,8 @@ button:hover {
 .topnav a {
    float: left;
    color:#f2f2f2;
-   text-align:center;
-   padding: 10px 10px;
+   text-align: center;
+   padding: 11px 10px;
    text-decoration: none;
    font-size: 17px;
 }
@@ -53,4 +41,11 @@ button:hover {
    top:0;
    left:0;
    transform: none;
+}
+@media only screen and (max-width: 600px) {
+   .topnav a, .topnav-right{
+      float:none;
+      display : block;
+      text-align: auto;
+   }
 }
