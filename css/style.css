@@ -1,0 +1,63 @@
+.alert, .Alternative, .Classical, .African {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0px srgba(45, 30, 128, 0.884);
+  padding: 9px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body strong {
+  font-size: 20;
+  font-family: cursive;
+}
+
+body header {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial;
+  color: primary;
+}
+
+body ul li {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+body button {
+  border-radius: 20px;
+  background-color: #c088bb;
+}
+
+.alert {
+  text-align: center;
+}
+
+.Alternative {
+  background-color: #7a7a9b;
+}
+
+.Classical {
+  background-color: #7a7a9b;
+}
+
+.African {
+  background-color: #7a7a9b;
+}
+
+div#card {
+  margin: 0;
+  font-size: 19px;
+  font-family: cursive;
+}
+/*# sourceMappingURL=style.css.map */
